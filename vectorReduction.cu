@@ -1,6 +1,10 @@
 #include <iostream>
 
+<<<<<<< HEAD
 // Use templates 
+=======
+// Use templates
+>>>>>>> 4d275a7 (cuda)
 
 // if you wanna return value from gpu to cpu, use memcpy
 __global__ void reduce_in_place(float* input, int n)
